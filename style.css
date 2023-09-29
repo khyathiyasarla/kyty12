@@ -1,0 +1,118 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.navbar{
+display: flex;
+align-items:center;
+padding: 20px;
+}
+nav{
+flex: 1;
+text-align: right;
+}
+nav ul{
+display: inline-block;
+list-style-type: none;
+}
+nav ul li{
+display: inline-block;
+margin-right: 20px;
+}
+a{
+text-decoration: none;
+color: #555;
+}
+p{
+color: #555;
+}
+.container{
+max-width: 1300px;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+}
+.rows{
+display: flex;
+}
+.column{
+float: left;
+width: 33.33%
+margin: auto;
+padding-left: 15px; 
+   padding-right: 15px;
+}
+.rows::after{
+content: "";
+clear: both;
+display: table;
+}
+h2{
+text-transform: capitalize;
+text-indent:20px;
+   color: white;
+text-align: center;
+font-style: oblique;
+font-style: 10px;
+background: lightpink;
+}
+b{
+font-size: 20px;
+text-decoration: underline;
+color: darkcyan;
+}
+.cart{
+border-radius: 50px;
+font-size: 12px;
+letter-spacing: 1px;
+line-height: 2em;
+border-width: 2px;
+background-color: #77A2AC;
+font-size: 20px;
+}
+u{
+text-decoration: none;
+border-bottom-style: solid;
+color: white;
+background: palevioletred;
+}
+.reviews
+{
+color: #ffd700;
+}
+ 
+.description{
+color: ;
+text-align: center;
+}
+.buy{
+background: indianred;
+color: white;
+font-size: 25px;
+
+ 
+}
+h1{
+color: darkolivegreen;
+}
+em{
+color: slategrey;
+font-size: 25px;
+text-transform: capitalize;
+text-decoration: underline;
+}
+.add{
+width=100%
+font-size: 30px;
+background-color: rgba(0,0,0,0.6);
+color: white;
+}
+h4{
+text-transform: capitalize;
+text-indent:5px;
+text-align: center;
+font-style: italic;
+font-style: 10px;
+color: black;
+background: pink;
